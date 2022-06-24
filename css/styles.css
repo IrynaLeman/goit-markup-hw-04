@@ -169,6 +169,21 @@ padding-bottom: 32px;
 
 /*Герой*/
 .hero {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right, 
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ),
+        url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
     background-color: var(--hero-color);
     text-align: center;
     padding-top: 200px;
@@ -238,7 +253,7 @@ padding-bottom: 32px;
     margin-bottom: 0;
 
     visibility: hidden};*/
-.item {
+.feature-list>.item {
     width: 270px;
 }
 .feature-list {
@@ -345,7 +360,7 @@ padding-bottom: 32px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-}
+
 .contact-list > li {
     margin-bottom: 9px;
 }
