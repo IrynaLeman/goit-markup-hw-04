@@ -261,8 +261,6 @@ padding-bottom: 32px;
 }
  .feature-list>li:not(:last-child) {
     margin-right: 30px;
-
-
 } 
 
 
@@ -281,6 +279,27 @@ padding-bottom: 32px;
 .list-text {
     line-height: 1.71;
     color: var(--second-color);
+}
+.feature-list>.item::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--buttom-bgr);
+    margin-bottom: 30px;
+}
+.icon-antenna::before {
+    background-image: url(../images/antenna\ \(1\).svg);
+}
+.icon-clock::before {
+background-image: url(../images/clock\ \(1\).svg);
+}
+.icon-diagram::before {
+    background-image: url(../images/diagram\ \(1\).svg);
+}
+.icon-austronaut::before {
+    background-image: url(../images/astronaut\ \(1\).svg);
 }
 
 /*Чем мы занимаемся + Наша команда*/
