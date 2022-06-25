@@ -380,7 +380,7 @@ background-image: url(../images/clock\ \(1\).svg);
     line-height: 1.19;
     text-align: center;
     color: var(--second-color);
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .nets-item>.link {
@@ -390,6 +390,8 @@ background-image: url(../images/clock\ \(1\).svg);
 .social-nets {
     display: flex;
     text-align: center;
+    margin-bottom: 30px;
+    justify-content: center;
 
 }
 .nets-item {
@@ -410,7 +412,6 @@ background-image: url(../images/clock\ \(1\).svg);
 
 .icon-nets {
     fill: currentColor;
-    text-align: center;
 }
 .icon-nets:hover,
 .icon-nets:focus {
