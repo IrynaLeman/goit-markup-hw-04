@@ -11,6 +11,7 @@
     --add-blue: #188CE8;
     --white-color: #FFFFFF;
     --white-alfa-color: rgba(255, 255, 255, 0.6);
+    --nets-color: #AFB1B8;
 }
 
 /*1я лекция репетыб 48мин: */
@@ -175,10 +176,10 @@ padding-bottom: 32px;
     margin-top: 0;
     margin-bottom: 0;
 }
-.mail>p {
+.mail>p,
+.tel>p {
     padding-left: 10px;
 }
-
 /*Герой*/
 .hero {
     max-width: 1600px;
@@ -382,6 +383,39 @@ background-image: url(../images/clock\ \(1\).svg);
     margin-bottom: 30px;
 }
 
+.nets-item>.link {
+    color: var(--nets-color);
+}
+
+.social-nets {
+    display: flex;
+    text-align: center;
+
+}
+.nets-item {
+    color: var(--nets-color);
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+.nets-item:not(last-child) {
+    margin-right: 10px;
+}
+.nets-item:hover,
+.nets-item:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    }
+
+.icon-nets {
+    fill: currentColor;
+    text-align: center;
+}
+.icon-nets:hover,
+.icon-nets:focus {
+    fill: var(--white-color);
+}
 
 /*Футер*/
 
