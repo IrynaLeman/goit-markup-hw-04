@@ -390,15 +390,15 @@ background-image: url(../images/clock\ \(1\).svg);
     align-items: center;*/
     
 }
-.icon-nets {
-    /*display: block;
+/*.icon-nets {
+    display: block;
     margin-bottom: auto;
     margin-top: auto;
     margin-top: auto;
     margin-bottom: auto;
     justify-content: center;
-    align-items: center;*/
-}
+    align-items: center;}*/
+
 .social-nets {
     display: flex;
     text-align: center;
