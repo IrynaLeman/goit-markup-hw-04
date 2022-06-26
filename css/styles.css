@@ -385,19 +385,10 @@ background-image: url(../images/clock\ \(1\).svg);
 
 .nets-item > .link {
     color: var(--nets-color);
-    /*display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;*/
-    
+    align-items: center;
 }
-/*.icon-nets {
-    display: block;
-    margin-bottom: auto;
-    margin-top: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    justify-content: center;
-    align-items: center;}*/
 
 .social-nets {
     display: flex;
@@ -430,6 +421,32 @@ background-image: url(../images/clock\ \(1\).svg);
     fill: var(--white-color);
 }
 
+/*Наши клиенты*/
+
+.client-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--nets-color);
+    border-color: var(--nets-color);
+    border-radius: 4px;
+    color: var(--nets-color);
+}
+.icon-client {
+    fill: currentColor;
+}
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+.client-link:hover,
+.client-link:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
 /*Футер*/
 
 .footer {
