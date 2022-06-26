@@ -383,51 +383,37 @@ background-image: url(../images/clock\ \(1\).svg);
     margin-bottom: 16px;
 }
 
-.nets-item > .link {
+
+.icon-nets {
+    fill: currentColor
+}
+
+.nets-item>.link {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: transparent;
+    color: var(--nets-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: transparent;
-    color: var(--nets-color);
+}
+
+.nets-item>.link:hover,
+.nets-item>.link:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 .social-nets {
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
     margin-bottom: 30px;
-    justify-content: center;
-
-}
-.nets-item {
-    color: var(--nets-color);
-    background-color: transparent;
-    border-radius: 50%;
 }
 
-.nets-item:not(last-child) {
-    margin-right: 10px;
-}
-.nets-item:hover,
-.nets-item:focus {
-    background-color: var(--accent-color);
-    color: var(--white-color);
-    }
-.nets-item>link:hover,
-.nets-item>link:focus {
-    background-color: var(--accent-color);
-    color: var(--white-color);
-}
-.icon-nets {
-    fill: currentColor;
-}
-.icon-nets:hover,
-.icon-nets:focus {
-    fill: var(--white-color);
-}
 
 /*Наши клиенты*/
 
