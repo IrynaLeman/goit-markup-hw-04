@@ -494,6 +494,49 @@ background-image: url(../images/clock\ \(1\).svg);
     color: var(--white-color);
 }
 
+.go {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    
+}
+.icon-footer-net {
+    fill: currentColor
+}
+.nets-footer>.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+.nets-footer>.link:hover,
+.nets-footer>.link:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.footer-social-nets {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.lets-go {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+.footer-container {
+    display: flex;
+}
+
 /*ПОРТФОЛИО*/
 
 
