@@ -532,6 +532,7 @@ background-image: url(../images/clock\ \(1\).svg);
     width: 206px;
     height: 80px;
     margin-left: 70px;
+    padding-top: 12px;
 }
 .footer-container {
     display: flex;
