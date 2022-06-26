@@ -384,10 +384,15 @@ background-image: url(../images/clock\ \(1\).svg);
 }
 
 .nets-item > .link {
-    color: var(--nets-color);
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--nets-color);
 }
 
 .social-nets {
@@ -400,10 +405,9 @@ background-image: url(../images/clock\ \(1\).svg);
 .nets-item {
     color: var(--nets-color);
     background-color: transparent;
-    width: 44px;
-    height: 44px;
     border-radius: 50%;
 }
+
 .nets-item:not(last-child) {
     margin-right: 10px;
 }
@@ -412,7 +416,11 @@ background-image: url(../images/clock\ \(1\).svg);
     background-color: var(--accent-color);
     color: var(--white-color);
     }
-
+.nets-item>link:hover,
+.nets-item>link:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
 .icon-nets {
     fill: currentColor;
 }
