@@ -146,6 +146,7 @@ padding-bottom: 32px;
 .header-contacts {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 .header-contacts .item + .item {
     margin-left: 50px;
@@ -176,8 +177,7 @@ padding-bottom: 32px;
     margin-top: 0;
     margin-bottom: 0;
 }
-.mail>p,
-.tel>p {
+.contact-scribe {
     padding-left: 10px;
 }
 /*Герой*/
