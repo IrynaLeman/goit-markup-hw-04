@@ -169,16 +169,19 @@ padding-bottom: 32px;
     color: var(--accent-color);
 }
 .header-icons {
+    margin-right: 10px;
     fill: currentColor;
 }
 
-.mail {
+.mail,
+.tel {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
+    align-items: center;
 }
 .contact-scribe {
-    padding-left: 10px;
+    /*padding-left: 10px;*/
 }
 /*Герой*/
 .hero {
@@ -524,12 +527,13 @@ background-image: url(../images/clock\ \(1\).svg);
 }
 .lets-go {
     width: 206px;
-    height: 80px;
     margin-left: 70px;
-    padding-top: 12px;
+    /*height: 80px;
+    padding-top: 12px;*/
 }
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 /*ПОРТФОЛИО*/
